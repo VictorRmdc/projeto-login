@@ -15,7 +15,7 @@
 body, html {
     background-color: #5f2c82;
     height: 100vh;
-    width: vw;
+    width: 100vw;
 }
 
 main {
@@ -45,7 +45,7 @@ section#login > div#imagem {
     display: block;
     background: #5f2c82 url(../imagens/pexels-patrice-werner-9532660.jpg) no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: left bottom;
     height: 200px;
 
 }
