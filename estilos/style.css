@@ -25,11 +25,11 @@ main {
 }
 
 section#login {
-    position: absolute;
+    position: absolute;/*Até a configuração transform, faz com que a section fique centralizada dentro de outro elemento*/
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    overflow: hidden; /*Tudo que ficar fora da section#login, será recortado, dessa forma, a imagem se enquadra no borde radius de 20px*/
+    overflow: hidden; /*Tudo que ficar fora da section#login, será recortado, dessa forma, a imagem se enquadra no border radius de 20px*/
 
     background-color: white;
     width: 250px;
